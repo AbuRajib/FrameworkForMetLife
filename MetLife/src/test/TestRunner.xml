@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://www.testng.org/testng-1.0.dtd">
+<suite name="Metlife Home Page">
+    <parameter name="UseSauceLabs" value="false"/>
+    <parameter name="userName" value="rajib0078"/>
+    <parameter name="Key" value="e7d64913-3a8f-4ef4-8f2c-d4a694179e16"/>
+    <parameter name="BrowserName" value="firefox"/>
+    <parameter name="BrowserVersion" value="40"/>
+    <parameter name="os" value="windows"/>
+
+    <parameter name="url" value="http://www.metlife.com"/>
+
+    <test name="Metlife Page">
+        <classes>
+            <!--<class name="HomePage.HomeMenu"/>-->
+            <class name="HomePage.CustomerLogin"/>
+        </classes>
+    </test>
+
+</suite>
